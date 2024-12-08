@@ -6,8 +6,8 @@ The pipeline I followed was :
 
 1) Data Exploration: Went through different datasets available and their properties, used the Sentiment140 Twitter dataset.
 2) Tokenization of the given dataset (There was no need of cleaning the dataset as it was already done.) and one hot encoding of the target to make it a classification problem
-3) Defining the model - Used BERT Small due to limitations and added a fine tuned it
-4) Training and Validation
+3) Defining the model - Used BERT Small due to limitations and fine-tuned it.
+4) Training and Validation: Trained on about 20% of the dataset.
 5) Deployment using Gradio
 
 Please find the training results of the model below:
